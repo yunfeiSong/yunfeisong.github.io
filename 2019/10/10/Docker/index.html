@@ -42,6 +42,8 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"> <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script> <script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script> 
+  
   <title>Docker 入门 - 东柳林</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
@@ -74,6 +76,10 @@
     <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
   
 
+
+
+  
+<link rel="stylesheet" href="/css/aPlayer.css">
 
 
 
@@ -521,9 +527,9 @@ docker exec 容器 id /etc/init.d/sshd restart
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2019/10/10/2022-08-18-markdown/" title="Markdown 基础语法">
+                      <a href="/2019/10/10/ffmpeg%20%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/" title="FFmpeg 常用命令">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Markdown 基础语法</span>
+                        <span class="hidden-mobile">FFmpeg 常用命令</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -531,8 +537,8 @@ docker exec 容器 id /etc/init.d/sshd restart
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2019/10/10/ffmpeg%20%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/" title="FFmpeg 常用命令">
-                        <span class="hidden-mobile">FFmpeg 常用命令</span>
+                      <a href="/2019/10/10/linux%20command/" title="Linux 命令">
+                        <span class="hidden-mobile">Linux 命令</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
@@ -660,13 +666,19 @@ docker exec 容器 id /etc/init.d/sshd restart
     
 
     
+      <div class="col-lg-7 mx-auto nopadding-x-md">
+        <div class="container custom mx-auto">
+           <canvas class="fireworks" style="position:fixed;left:0;top:0;z-index:2;pointer-events:none;" ></canvas> <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> <!--动态线条背景--> <script type="text/javascript" color="0,255,100" opacity="0.7" zIndex="-2" count="200" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script> <!-- 数字雨 --> <!-- <canvas id="canvas" width="1440" height="900" ></canvas> --> <!-- 全局 APlayer 播放器 --> <div id="global-player"></div> 
+        </div>
+      </div>
+    
   </main>
 
   <footer>
     <div class="footer-inner">
   
     <div class="footer-content">
-       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> <div><span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span></div> 
     </div>
   
   
@@ -871,6 +883,13 @@ docker exec 容器 id /etc/init.d/sshd restart
   <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
 
 
+
+
+  
+<script src="/js/firework.js"></script>
+<script src="/js/timeDate.js"></script>
+<script src="/js/snow.js"></script>
+<script src="/js/aPlayer.js"></script>
 
 
 
