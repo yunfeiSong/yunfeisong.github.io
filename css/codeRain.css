@@ -1,10 +1,1 @@
-canvas {
-    position: fixed;
-    right: 0px;
-    bottom: 0px;
-    min-width: 100%;
-    min-height: 100%;
-    height: auto;
-    width: auto;
-    z-index: -3;
-}
+canvas{position:fixed;right:0;bottom:0;min-width:100%;min-height:100%;height:auto;width:auto;z-index:-3}
