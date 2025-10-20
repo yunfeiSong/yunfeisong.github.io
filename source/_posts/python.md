@@ -1,3 +1,13 @@
+---
+title: Python 基础
+categories:
+  - [Python]
+tags:
+  - [Python]
+index_img: /img/python.jpg
+date: 2025-10-20 10:00:00
+---
+
 [TOC]
 
 ### 安装

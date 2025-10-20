@@ -1,9 +1,9 @@
 ---
 title: Nginx 简介
 categories:
-- [Nginx]
+  - [Nginx]
 tags:
-- [Nginx]
+  - [Nginx]
 index_img: /img/nginx.jpg
 date: 2019-10-10 10:00:00
 ---
